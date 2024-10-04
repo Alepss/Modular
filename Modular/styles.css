@@ -1,0 +1,191 @@
+.inicio {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .inicio .texto {
+    flex: 2;
+    padding-right: 20px; 
+    text-align: justify;
+  }
+  
+  .inicio .imagen {
+    flex: 2;
+    text-align: center;
+  }
+  
+  .inicio .imagen img {
+    max-width: 80%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+  }
+  
+  header {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #4CAF50;
+    color: white;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    font-weight: bold;
+  }
+  
+  nav {
+    background-color: #4CAF50;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  nav ul li {
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    background-color: #45a049;
+    border-radius: 4px;
+  }
+  
+  section {
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  section h2 {
+    font-size: 1.8em;
+    margin-top: 0;
+    color: #008000; /* Verde fuerte */
+  }
+  
+  .texto {
+    padding-right: 20px; 
+    text-align: justify;
+  }
+  
+  .texto p {
+    margin-bottom: 20px;
+  }
+  
+  .imagen1, .imagen2, .imagen3, .imagen4, .imagen5, .imagen6, .imagen7, .imagen8, .imagen9, .imagen10 {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .imagen1 img, .imagen2 img, .imagen3 img, .imagen4 img, .imagen5 img, .imagen6 img, .imagen7 img, .imagen8 img, .imagen9 img, .imagen10 img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: auto; /* Esto centra la imagen */
+    display: block; /* Esto es necesario para que funcione margin: auto */
+  }
+  
+  strong {
+    color: #008000; /* Verde fuerte */
+  }
+  
+  iframe {
+    width: 100%;
+    height: 500px;
+    margin: 20px auto;
+    display: block;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border-top: 1px solid #ddd;
+  }
+  
+  ol {
+    padding-left: 20px;
+  }
+  
+  ol li {
+    margin-bottom: 10px;
+  }
+  
+  ol li strong {
+    font-size: 1.2em;
+  }
+  
+  ul {
+    padding-left: 20px;
+  }
+  
+  ul li {
+    margin-bottom: 10px;
+  }
+  
+  ul li strong {
+    font-size: 1.1em;
+  }
+
+  .ejer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .ejer .imagen {
+    flex: 1;
+    text-align: center;
+    margin-right: 20px;
+  }
+  
+  .ejer .texto {
+    flex: 3;
+    text-align: justify;
+  }
